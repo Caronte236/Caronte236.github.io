@@ -31,21 +31,7 @@ html {
 }
   
 
-.indice-container {            
-    position: fixed; /* Fija el elemento en una posición específica en la ventana */
-    top: 30%; /* Coloca el elemento en la parte superior de la ventana */
-    right: 0; /* Coloca el elemento en el lado derecho de la ventana */
-    height: 80%; /* Establece la altura del elemento al 100% de la ventana */
-    width: 200px; /* Define el ancho del elemento como 200 píxeles (ajústalo según tus necesidades) */
-    background-color: rgba(34, 32, 32);
-    overflow-y: scroll; /* Agrega una barra de desplazamiento vertical si el contenido excede la altura del elemento */
-    
-}
 
-
-.indice-scroll {
-    padding: 10px; /* Agrega un espacio interno de 10 píxeles alrededor del contenido */
-}
 
 a {
     color:#b6a3a3
@@ -71,6 +57,14 @@ img[src="11111111111.png"] {
     position: relative;
     top: 4px;
     left: 10px;
+}
+
+img[id="log-pinterest"] {
+    left: 20px;
+}
+
+.Pinterest_link {
+    left: 23px;
 }
 
 .btn {

@@ -39,6 +39,11 @@ h1 {
     align-items: center;
 }
 
+.container2 {
+    display: flex;
+    align-items: center;
+}
+
 .HOME {
     margin-left: 10px; /* Ajusta este valor según tus necesidades */
 }
