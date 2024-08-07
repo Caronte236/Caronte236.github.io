@@ -1,0 +1,128 @@
+h1 {
+    color: rgb(168, 117, 179);
+    width: 560px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: rgb(103, 39, 155) 1px 0 10px;
+    margin: auto;
+}
+  
+div {
+    font-size: 15px;
+    letter-spacing: 2;
+    margin-left: 10px;
+    font-family: "Century Gothic";
+}
+
+
+
+.pginicio {
+    background-color: rgba(34, 32, 32); /* Corregido: Añadido el valor alfa para rgba */
+    color: rgb(211, 205, 201);
+    padding: 0;
+
+}
+  
+html {
+    font-size: 12px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-family: "Open Sans", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+    line-height: 2;
+    letter-spacing: 1px;
+}
+  
+
+.indice-container {            
+    position: fixed; /* Fija el elemento en una posición específica en la ventana */
+    top: 30%; /* Coloca el elemento en la parte superior de la ventana */
+    right: 0; /* Coloca el elemento en el lado derecho de la ventana */
+    height: 80%; /* Establece la altura del elemento al 100% de la ventana */
+    width: 200px; /* Define el ancho del elemento como 200 píxeles (ajústalo según tus necesidades) */
+    background-color: rgba(34, 32, 32);
+    overflow-y: scroll; /* Agrega una barra de desplazamiento vertical si el contenido excede la altura del elemento */
+    
+}
+
+
+.indice-scroll {
+    padding: 10px; /* Agrega un espacio interno de 10 píxeles alrededor del contenido */
+}
+
+a {
+    color:#b6a3a3
+}
+  
+.rectangulo {
+    width: 100%;
+    height: 40px; /* Puedes ajustar la altura según tus necesidades */
+    background-color: rgb(75, 73, 73);
+    margin: 8px 0 0 0; /* Espacio entre el título y el rectángulo */
+    border: 1px solid #b1adad;
+}
+
+
+h3,
+ul,
+p{
+    margin-left: 20px;
+}
+
+
+img[src="11111111111.png"] {
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+
+.btn {
+    color: rgb(211, 205, 201); /* Color del texto */
+    border-color:transparent ;
+    background-color: transparent; /* Fondo transparente */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    transition: background-color 0.3s; /* Transición suave al pasar el cursor */
+    font-family: "Open sans";
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 5px 6px;
+    border-radius: 7px;
+    cursor: pointer;
+    position: relative; /* O absolute, según tus necesidades */
+    top: 0.2px; /* Cambia esta cantidad para mover el botón verticalmente */
+    left: 8%; /* Cambia esta cantidad para mover el botón horizontalmente */
+    border-color: rgb(43, 59, 50);
+}
+
+
+.btn:hover {
+    background-color: rgba(117, 1, 11, 0.363); /* Color vino al pasar el cursor */
+    color: rgb(185, 72, 82); /* Texto blanco al pasar el cursor */
+
+}
+
+.secundary {
+    color: rgb(211, 205, 201); /* Color del texto */
+    border-color:transparent ;
+    background-color: transparent; /* Fondo transparente */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    transition: background-color 0.3s; /* Transición suave al pasar el cursor */
+    position: relative; /* O absolute, según tus necesidades */
+    top: 0.2px; /* Cambia esta cantidad para mover el botón verticalmente */
+    left: 10%; /* Cambia esta cantidad para mover el botón horizontalmente */
+    font-family: "Open sans";
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 5px 6px;
+    border-radius: 7px;
+    cursor: pointer;
+    border-color: rgb(43, 59, 50);
+
+}
+
+
+.secundary:hover {
+    background-color: rgba(117, 1, 11, 0.363); /* Color vino al pasar el cursor */
+    color: rgb(185, 72, 82); /* Texto blanco al pasar el cursor */
+
+}
+

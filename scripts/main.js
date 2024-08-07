@@ -1,0 +1,4 @@
+document.querySelector("#triangulo").onclick = function () {
+    alert("01010001 01010101 01000101 00100000 01000010 01010101 01010011 01000011 01000001 01010011");
+  };
+  
