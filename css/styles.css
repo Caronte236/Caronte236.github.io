@@ -60,12 +60,10 @@ img[src="11111111111.png"] {
 }
 
 img[id="log-pinterest"] {
+    position: relative;
     left: 30px;
 }
 
-.Pinterest_link {
-    left: 23px;
-}
 
 .btn {
     color: rgb(211, 205, 201); /* Color del texto */
