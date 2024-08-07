@@ -1,3 +1,3 @@
-> .[NOTA].
->Pagina hecha por Caronte236
+> [!NOTE]
+> Pagina hecha por Caronte236
 
