@@ -1,3 +1,3 @@
-> [!NOTE]
-> Pagina hecha por Caronte236
+> [!IMPORTANT]
+> CHECK LICENCE
 
