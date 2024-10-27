@@ -1,0 +1,74 @@
+/* Estilo del video de fondo */
+#videoFondo {
+    position: fixed; /* Fija el video en la pantalla */
+    top: 0; 
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho */
+    height: 100%; /* Ocupa toda la altura */
+    object-fit: cover; /* Ajusta el video para cubrir el área */
+    z-index: -1; /* Envía el video detrás del contenido */
+}
+
+/* Eliminar margen y padding del body */
+body {
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el padding */
+    overflow: hidden; /* Evita el desplazamiento si el video se desborda */
+}
+
+/* Estilo del contenido */
+.contenido {
+    position: relative; /* Asegura que el contenido esté sobre el video */
+    z-index: 1; /* Lleva el contenido al frente */
+    color: white; /* Color del texto para contraste */
+    text-align: center; /* Centrar el texto */
+    padding-top: 20%; /* Espacio desde la parte superior */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: rgba(65, 77, 112, 0.7); /* Fondo semi-transparente */
+    padding: 15px 20px; /* Espaciado interno */
+    margin: 0; /* Elimina el margen */
+    position: relative; /* Posiciona el encabezado correctamente */
+    z-index: 1; /* Lleva el encabezado al frente */
+}
+/* Estilo del encabezado */
+header {
+    display: flex; /* Usamos flex para alinear items */
+    align-items: center; /* Alineamos verticalmente */
+    color: MediumSeaGreen; /* Color inicial del texto */
+}
+
+/* Cambiar color del texto en el encabezado al pasar el cursor */
+header h1:hover {
+    color: rgb(32, 151, 58); /* Color que deseas al pasar el cursor */
+}
+
+/* Estilo del enlace para que el color se mantenga en el hover */
+header a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: inherit; /* Hereda el color del encabezado */
+}
+
+
+/* Configurar nav para que ocupe todo el ancho sin espacios */
+nav {
+    background-color: rgba(44, 62, 80, 0.7); /* Fondo semi-transparente */
+    color: white;
+    margin: 0; /* Elimina el margen */
+    padding: 15px 20px; /* Espaciado interno */
+}
+
+/* Estilo de los enlaces en la barra de navegación */
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* Cambiar color de los enlaces al pasar el cursor */
+nav a:hover {
+    color: rgb(32, 151, 58); /* Cambia este color al que prefieras */
+}
+

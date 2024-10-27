@@ -1,135 +1,40 @@
-h1 {
-    color: rgb(168, 117, 179);
-    width: 560px;
-    font-size: 40px;
-    text-align: center;
-    text-shadow: rgb(103, 39, 155) 1px 0 10px;
-    margin: auto;
-}
-  
-div {
-    font-size: 15px;
-    letter-spacing: 2;
-    margin-left: 10px;
-    font-family: "Century Gothic";
+
+
+/* Asegurar que el body tenga margen solo en los lados y parte inferior */
+body {
+    margin: 0 20px 20px 20px;
+    background-color: #1a2332;
+    color: aliceblue;
 }
 
-
-
-.pginicio {
-    background-color: rgba(34, 32, 32); /* Corregido: Añadido el valor alfa para rgba */
-    color: rgb(211, 205, 201);
-    padding: 0;
-
-}
-  
-html {
-    font-size: 12px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
-    font-family: "Open Sans", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
-    line-height: 2;
-    letter-spacing: 1px;
-}
-  
-
-
-
-a {
-    color:#b6a3a3
-}
-  
-.rectangulo {
-    width: 100%;
-    height: 80px; /* Puedes ajustar la altura según tus necesidades */
-    background-color: #282828;
-    margin: 8px 0 0 0; /* Espacio entre el título y el rectángulo */
-    border: 1px solid #504e4e;
+/* Estilo del encabezado */
+header {
+    background-color: #414d70;
+    padding: 15px 20px;
+    margin: 0 -20px; /* Alinea con los márgenes laterales del body */
 }
 
-/* Media query para pantallas pequeñas */
-@media (max-width: 600px) {
-    .rectangulo {
-        height: 30px; /* Ajusta la altura para pantallas pequeñas */
-        margin: 4px 0 0 0; /* Ajusta el margen si es necesario */
-    }
+/* Configurar nav para que ocupe todo el ancho sin espacios */
+nav {
+    background-color: #2c3e50;
+    color: white;
+    margin: 0 -20px; /* Alinea con los márgenes laterales del body */
+    padding: 15px 20px;
 }
 
-/* Media query para pantallas medianas */
-@media (min-width: 601px) and (max-width: 1024px) {
-    .rectangulo {
-        height: 35px; /* Ajusta la altura para pantallas medianas */
-        margin: 6px 0 0 0; /* Ajusta el margen si es necesario */
-    }
+/* Estilo de los enlaces en la barra de navegación */
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* Cambiar color de los enlaces al pasar el cursor */
+nav a:hover {
+    color: rgb(32, 151, 58); /* Cambia este color al que prefieras */
 }
 
 
-
-h3,
-ul,
-p{
-    margin-left: 20px;
+p, h4 {
+    padding: 2px;
 }
-
-
-img[src="11111111111.png"] {
-    position: relative;
-    top: 4px;
-    left: 10px;
-    max-width: 100%;
-    height: auto;
-}
-
-img[id="log-pinterest"] {
-    position: relative;
-    left: 30px;
-    max-width: 100%;
-    height: auto;
-}
-
-
-.btn {
-    color: rgb(211, 205, 201); /* Color del texto */
-    background-color: transparent; /* Fondo transparente */
-    transition: background-color 0.3s; /* Transición suave al pasar el cursor */
-    font-family: "Open sans";
-    font-size: 16px;
-    letter-spacing: 1px;
-    padding: 5px 6px;
-    border-radius: 7px;
-    cursor: pointer;
-    position: relative; /* O absolute, según tus necesidades */
-    top: 0.2px; /* Cambia esta cantidad para mover el botón verticalmente */
-    left: 8%; /* Cambia esta cantidad para mover el botón horizontalmente */
-    border-color: rgb(43, 59, 50);
-}
-
-
-.btn:hover {
-    background-color: rgba(117, 1, 11, 0.363); /* Color vino al pasar el cursor */
-    color: rgb(185, 72, 82); /* Texto blanco al pasar el cursor */
-
-}
-
-.secundary {
-    color: rgb(211, 205, 201); /* Color del texto */
-    background-color: transparent; /* Fondo transparente */
-    transition: background-color 0.3s; /* Transición suave al pasar el cursor */
-    position: relative; /* O absolute, según tus necesidades */
-    top: 0.2px; /* Cambia esta cantidad para mover el botón verticalmente */
-    left: 10%; /* Cambia esta cantidad para mover el botón horizontalmente */
-    font-family: "Open sans";
-    font-size: 16px;
-    letter-spacing: 1px;
-    padding: 5px 6px;
-    border-radius: 7px;
-    cursor: pointer;
-    border-color: rgb(43, 59, 50);
-
-}
-
-
-.secundary:hover {
-    background-color: rgba(117, 1, 11, 0.363); /* Color vino al pasar el cursor */
-    color: rgb(185, 72, 82); /* Texto blanco al pasar el cursor */
-
-}
-

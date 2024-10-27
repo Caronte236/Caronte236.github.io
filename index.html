@@ -1,54 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video de Fondo</title>
+    <link rel="stylesheet" href="css/1styles.css">
+</head>
+<body>
+    <div class="container">
+           
+            
+            
+        <div class="HOME">
+            <header style="color: MediumSeaGreen; display: flex; align-items: center;"> <img  id="triangulo" src="Imagenes/11111111111.png" alt="logo" width="30"/>
+                <a  href="index.html"><h1>WELCOME TO CARONTE</h1></a>
+            </header>
         
-        <title>JCAP</title>
-        <link rel="icon" type="image/x-icon" href="Imagenes/icono.png">
-        
-        <link rel="stylesheet" href="css/1styless.css" type="text/css"/>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <script src="scripts/main.js" defer></script>
-
-        <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans"
-        rel="stylesheet"
-        type="text/css" />
-    </head>
-
-    <body class="pghome">
-        
-        <div class="container">
-            <img id="triangulo" src="Imagenes/11111111111.png" alt="logo" width="30"/>
-            <div class="HOME">
-                <a href="index.html">HOME</a> <br>
-            </div>
-            <div class="inicio0">
-                <button onclick="window.location.href='inicio.html'" class="inicio">Inicio</button>
-            </div>
-        </div>
-        
-        <h1>BIENVENIDOS A MI PAGINA DE INICIO</h1>
-         
-
-        <center>                             
-            <h4>
-                Esta es mi pagina de inicio <br>
-                bienvenidos a mi sitio web <br>
-            </h4>
-        </center>
-        
-        <div class="container2"> 
-            <img id="log-pinterest" src="Imagenes/Sin_título-removebg-preview.png" alt="Error logo" width="30"/>
-            <div class="Pinterest_link">
-                <a href="https://pin.it/6paBoR828">Pinterest</a>
-            </div>
-    
+            <nav>
+                <a href="inicio.html">Inicio</a>
+                <a href="seccion 1.html">Pagina 1</a>
+                <a href="seccion 2.html">Pagina 2</a>
+                <a href="https://pin.it/5rxnygKrt">Redes Sociales</a>
+            </nav>
         </div>
 
-        
-    </body>
+    </div>
+
+    <video id="videoFondo" autoplay muted loop>
+        <source src="Imagenes/starry-sunset.1920x1080.mp4" type="video/mp4">
+        Tu navegador no soporta videos HTML5.
+    </video>
+
+    <div class="contenido">
+        <h1>¡Bienvenido a Nuestra Página!</h1>
+        <p>ESTE ES MI PROYECTO</p>
+    </div>
+
+</body>
 </html>
