@@ -9,12 +9,7 @@
     z-index: -1; /* Envía el video detrás del contenido */
 }
 
-/* Eliminar margen y padding del body */
-body {
-    margin: 0; /* Elimina el margen */
-    padding: 0; /* Elimina el padding */
-    overflow: hidden; /* Evita el desplazamiento si el video se desborda */
-}
+
 
 /* Estilo del contenido */
 .contenido {
@@ -25,39 +20,28 @@ body {
     padding-top: 20%; /* Espacio desde la parte superior */
 }
 
+body {
+    margin: 0 20px 20px 20px;
+    background-color: #1a2332;
+    color: aliceblue;
+}
+
+
 /* Estilo del encabezado */
 header {
-    background-color: rgba(65, 77, 112, 0.7); /* Fondo semi-transparente */
-    padding: 15px 20px; /* Espaciado interno */
-    margin: 0; /* Elimina el margen */
-    position: relative; /* Posiciona el encabezado correctamente */
-    z-index: 1; /* Lleva el encabezado al frente */
+    background-color: #414d70;
+    opacity: 0.7;
+    padding: 15px 20px;
+    margin: 0 -20px; /* Alinea con los márgenes laterales del body */
 }
-/* Estilo del encabezado */
-header {
-    display: flex; /* Usamos flex para alinear items */
-    align-items: center; /* Alineamos verticalmente */
-    color: MediumSeaGreen; /* Color inicial del texto */
-}
-
-/* Cambiar color del texto en el encabezado al pasar el cursor */
-header h1:hover {
-    color: rgb(32, 151, 58); /* Color que deseas al pasar el cursor */
-}
-
-/* Estilo del enlace para que el color se mantenga en el hover */
-header a {
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    color: inherit; /* Hereda el color del encabezado */
-}
-
 
 /* Configurar nav para que ocupe todo el ancho sin espacios */
 nav {
-    background-color: rgba(44, 62, 80, 0.7); /* Fondo semi-transparente */
+    background-color: #2c3e50;
     color: white;
-    margin: 0; /* Elimina el margen */
-    padding: 15px 20px; /* Espaciado interno */
+    opacity: 0.7;
+    margin: 0 -20px; /* Alinea con los márgenes laterales del body */
+    padding: 15px 20px;
 }
 
 /* Estilo de los enlaces en la barra de navegación */

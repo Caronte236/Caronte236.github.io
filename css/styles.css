@@ -5,6 +5,7 @@ body {
     margin: 0 20px 20px 20px;
     background-color: #1a2332;
     color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Estilo del encabezado */
@@ -38,3 +39,32 @@ nav a:hover {
 p, h4 {
     padding: 2px;
 }
+
+a {
+    color: rgb(211, 208, 208);
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* Cambiar color de los enlaces al pasar el cursor */
+a:hover {
+    color: rgb(32, 151, 58); /* Cambia este color al que prefieras */
+}
+
+.logo-imagen {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción */
+    margin: -32px; /* Ajusta el margen como desees */
+    display: flex; /* Activa Flexbox */
+    align-items: center; /* Centra verticalmente */
+    margin-left: 1160px;/* Ajusta el margen */
+}
+
+
+.logo-imagen:hover {
+    opacity: 0.8; /* Cambia la opacidad al pasar el ratón */
+    
+}
+
+
+
